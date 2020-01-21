@@ -1,0 +1,61 @@
+{
+    "title":"Fabric_CA_Analyze",
+    "author":"ElizaWang 王永佳",
+    "language":"zh-hans",
+    "structure":{
+        "readme":"README.md"
+    },
+    "gitbook" : "3.2.2",
+    "plugins": [
+        "splitter",
+        "expandable-chapters-small",
+        "anchors",
+        "anchor-navigation-ex",
+        "tbfed-pagefooter",
+        "-lunr", 
+        "-search", 
+        "search-plus",
+        "copy-code-button",
+        "alerts",
+        "api",
+        "theme-comscore",
+        "tags",
+        "sectionx",
+        "-highlight", 
+        "prism",
+        "prism-themes",
+        "include-csv",
+        "fancybox",
+        "puml"
+    ],
+    "pluginsConfig": {
+        "anchor-navigation-ex": {
+            "showLevel": false
+        },
+        "include-codeblock": {
+            "template": "ace",
+            "unindent": "true",
+            "theme": "monokai"
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy YONGJIA WANG 2019",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "simple-page-toc": {
+            "maxDepth": 3,
+            "skipFirstH1": true
+        },
+        "sectionx": {
+            "tag": "b"
+        },
+        "theme-default": {
+            "showLevel": false
+        },   
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-okaidia.css"
+            ]
+        }
+    }
+}
